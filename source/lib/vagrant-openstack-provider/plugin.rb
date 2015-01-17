@@ -34,6 +34,9 @@ module VagrantPlugins
       end
 
       command('openstack') do
+        Openstack.init_i18n
+        Openstack.init_logging
+
         require_relative 'command/main'
         Command::Main
       end
