@@ -12,12 +12,12 @@ if ENV['COVERAGE'] != 'false'
 end
 
 Dir[
+  'lib/vagrant-openstack-provider/errors.rb',
   'lib/vagrant-openstack-provider/version_checker.rb',
   'lib/vagrant-openstack-provider/logging.rb',
   'lib/vagrant-openstack-provider/config.rb',
   'lib/vagrant-openstack-provider/config_resolver.rb',
   'lib/vagrant-openstack-provider/utils.rb',
-  'lib/vagrant-openstack-provider/errors.rb',
   'lib/vagrant-openstack-provider/provider.rb',
   'lib/vagrant-openstack-provider/client/*.rb',
   'lib/vagrant-openstack-provider/command/*.rb',
